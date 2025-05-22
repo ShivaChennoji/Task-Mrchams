@@ -24,7 +24,7 @@ function Forms() {
   const handleSubmit = (e) => {
     e.preventDefault();
       setSubmitted(true);
-      navigate('/form2');
+      navigate('/Task-Mrchams/form2');
   };
 
   return (

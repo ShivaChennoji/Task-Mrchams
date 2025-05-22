@@ -29,7 +29,7 @@ function Forms6() {
         </div>
 
         <div className="button-row">
-          <button type="button" className="back-btn" onClick={() => navigate('/form5')}> Back
+          <button type="button" className="back-btn" onClick={() => navigate(-1)}> Back
           </button>
           <button type="button" className="continue-btn">
             Continue

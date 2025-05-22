@@ -23,7 +23,7 @@ function Form4() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmitted(true);
-    navigate('/form5');
+    navigate('/Task-Mrchams/form5');
   };
 
   return (
@@ -71,7 +71,7 @@ function Form4() {
         </div>
 
         <div className="button-row">
-          <button type="button" className="back-btn" onClick={() => navigate('/form3')}>
+          <button type="button" className="back-btn" onClick={() => navigate(-1)}>
         Back
           </button>
           <button type="submit" className="continue-btn">

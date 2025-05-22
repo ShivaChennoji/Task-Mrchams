@@ -10,13 +10,13 @@ import Forms5 from './components/forms5.jsx'
 import Forms6 from './components/forms6.jsx'
 
 const router = createBrowserRouter([
-  { path: '/', element: <App /> },
-  { path: '/form1', element: <Forms /> },
-  { path: '/form2', element: <Form2 /> },
-  { path: '/form3', element: <Form3 /> },
-  { path: '/form4', element: <Form4 /> },
-  { path: '/form5', element: <Forms5 /> },
-  { path: '/form6', element: <Forms6 /> }
+  { path: '/Task-Mrchams/', element: <App /> },
+  { path: '/Task-Mrchams/form1', element: <Forms /> },
+  { path: '/Task-Mrchams/form2', element: <Form2 /> },
+  { path: '/Task-Mrchams/form3', element: <Form3 /> },
+  { path: '/Task-Mrchams/form4', element: <Form4 /> },
+  { path: '/Task-Mrchams/form5', element: <Forms5 /> },
+  { path: '/Task-Mrchams/form6', element: <Forms6 /> }
 ])
 
 createRoot(document.getElementById('root')).render(
